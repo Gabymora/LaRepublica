@@ -1,0 +1,74 @@
+/*POSICION DE BANNERS*/
+#bannerp {
+	margin-top: 2%;
+	.container-fluid{
+   		.col-md-6{
+     		img{
+		       float: right;
+		       position: relative;
+		    }
+	     	.publi1{
+		    	float: left;
+		       	position: relative;
+		    }
+	     	.publi-tama {
+	     		width: 20%;
+	     		margin-top: 30%;
+	     	}
+   		}
+ 	}
+}
+
+footer {
+	/*contenido de la izquierda*/
+	    .row.content {height: 450px}
+	/*POSICIONES DE LOS ICONOS EN BARRA DE NAV*/
+	.ico-posi {
+		margin-right: 16%;
+		margin-top: 1%;
+	}
+	.separacion {
+		padding-right:2%;
+		margin-left: 2%;
+	}
+	.separacion2 {
+		padding-right:2%;
+	}
+	/*FOOTER POSICIONES*/
+	.mar-left-footer {
+		margin-left: 30%;
+		width: 99%;
+	}
+	.mycontent-left {
+	  border-left: 1px solid white;
+	  margin-left: -50px;
+	  padding-left: 50px !important;
+	}
+	.bott-img {
+		margin-bottom: 27%;
+	}
+	.tamano-rep {
+		width: 127%;
+	}
+	.tamano-p {
+		width: 132%;
+	}
+	.tamano-reser {
+		width: 140%;
+	}
+	.jalar-arriba {
+		margin-top: -55%;
+	}
+	/*CONTENIDO*/
+	.text-posi-enmedio {
+		margin-top: -52%;
+		margin-left: 53%;
+	}
+	.text-posi-enmedio2 {
+		width: 109%;
+		margin-left: 22%;
+	}
+	.posi-form {
+		margin-top: -25%;
+	}
+}

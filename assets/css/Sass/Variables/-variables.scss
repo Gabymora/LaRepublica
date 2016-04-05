@@ -1,4 +1,10 @@
-//BLOG
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+$font-oswald:'Oswald';
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+$font-monstserrat:'Montserrat';
+
+/*BLOG Y COLUMNISTAS ... TAYDE MORALES*/
+
 $blog-subtitle2: #667885;
 $black-light: #1F1F1F;
 $box-border: #e2e2e2;
@@ -6,9 +12,162 @@ $box-gray-bg: #E2E6E9;
 $hero-title-blue: #768596;
 $guinda: #BA1414;
 $guinda2: #B61901;
+$guinda-focus: #C11A01;
+$guinda-bg: #C61A01;
+$rojo-colum: #d90000;
+$color-border: #8b99a7;
+
+/* $color-guindo:#aa1801;
+$color-gray-title:#768596;
+ */
 
 @mixin border-radius($radius){
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
 	border-radius: $radius;
+}
+
+/*COLUMNISTAS*/ /*era parte de animacion pero no alcance a terminarlo*/
+@mixin transition($time){
+	-webkit-transition: $time;
+	-moz-transition: $time;
+	-o-transition: $time;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+/*GENERAL*/
+$gris:#F4F5F7;
+$rojo:#DB4949;
+$naranja:#FE8309;
+$ambar:#FFBF00;
+$celeste:#4BB7D9;
+$azul:#316AA4;
+$black-light:#f1f1f1;
+$guinda-dark:#941010;
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/*FOOTER EVE*/
+$bgfooter:#E7E5E5;
+footer {
+  background-color: $bgfooter;
+  color: #000;
+  padding: 15px;
+}
+.text-gray {
+	color: gray;
+}
+/*MEDIA*/
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+
+/*-------------------------------------------------------------------------------------------------------------------*/
+
+/*HEADER EVE*/
+/*TAMANO DE LA IMAGEN DEL BANNER TOP*/
+.tamano-top-comer {
+	width: 77%;
+	margin-left: 11%;
+}
+.tamano-top {
+	width: 92%;
+	margin-top: -115%;
+	margin-left: 5%;
+
+}
+.bg-top-gris {
+	background-color: #E7E5E5;
+}
+.move {
+	margin-left: 10%;
+}
+/*BOTON DEL HEADER- TOP*/
+.btn-move {
+	margin-left: 6%;
+	margin-top: 1%;
+	padding: 1px;
+}
+/*-----------------------------------------------------------------------------------------------------------------------*/
+/*utilities*/
+
+.pt-sans{
+	font-family: 'PT sans';
+}
+.open-sans{
+	font-family: 'open-sans';
+}
+.bck-gris{
+	background-color:$gris;
+}
+.border-right{
+	border-right:2px solid rgba(255,255,255,.8);
+}
+.cabecera{
+	border-bottom:2px solid rgba(0,0,0,.1);
+}
+.pd-15-20{
+	padding:5px 20px;
+}
+.pdt-15{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+.pdl-15{
+	padding-left:15px;
+}
+.pdl-30{
+	padding-left:30px;
+}
+.mgtb-30{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.mgb-50{
+	margin-top:50px;
+}
+.mgl-50{
+	margin-top:50px;
+}
+.mgtb-50{
+	margin-top:50px;
+}
+h6{
+	margin:0;
+}
+.w-100{
+	width: 100%;
+}
+.fs-15{
+	font-size: 15px;
+}
+.fs-10{
+	font-size: 6px;
+}
+.pr-10{
+	padding-right: 10px;
+}
+.pr-5{
+	padding-right: 5px;
+}
+.mb-10{
+	margin-bottom: 10px;
+}
+.mg-0{
+	margin:0;
+}
+.pt-0{
+	padding-top: 0!important;
+}
+.pd-5{
+	padding:5px;
+}
+.pt-55{
+	padding-top: 55px;
+}
+.margtop{
+	margin-top: -38%;
 }
